@@ -1,0 +1,28 @@
+#inicio {
+  .animate__animated.animate__bounceInLeft {
+    --animate-duration: 4000ms;
+    --animate-delay: 0.9s;
+  }
+
+  .animate__animated.animate__backInRight {
+    --animate-duration: 2000ms;
+  }
+
+  .animate__animated.animate__fadeInUp {
+    --animate-duration: 2000ms;
+  }
+
+  & .inicio_title {
+    font-size: 64px;
+    line-height: 84px;
+    max-width: 80%;
+  }
+  & .inicio_subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 628px;
+  }
+  & .inicio_title span.laptop {
+    color: #16a085;
+  }
+}

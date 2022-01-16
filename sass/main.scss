@@ -1,0 +1,75 @@
+@import "header";
+@import "footer";
+@import "media";
+@import "inicio";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+section {
+  height: 100%;
+}
+
+main {
+  height: 80%;
+}
+
+a {
+  font: {
+    family: "IBM Plex Sans", sans-serif;
+    color: #060a24;
+  }
+  &:active,
+  &:visited {
+    color: rgba(6, 10, 36, 0.56);
+    text-decoration: line-through;
+  }
+  &:hover {
+    color: #00f3bb;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0;
+  color: #060a24;
+}
+h1,
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+}
+h3 {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 600;
+}
+
+.imgcruz {
+  padding: 1rem;
+  width: 300px;
+  height: 200px;
+}
