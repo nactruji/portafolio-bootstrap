@@ -1,3 +1,9 @@
+@mixin fontoptions($size, $line, $maxwidth) {
+  font-size: $size;
+  line-height: $line;
+  max-width: $maxwidth;
+}
+
 #inicio {
   .animate__animated.animate__bounceInLeft {
     --animate-duration: 4000ms;
@@ -13,16 +19,13 @@
   }
 
   & .inicio_title {
-    font-size: 64px;
-    line-height: 84px;
-    max-width: 80%;
+    @include fontoptions(64px, 84px, 80%);
   }
   & .inicio_subtitle {
-    font-size: 16px;
-    line-height: 24px;
-    max-width: 628px;
+    @include fontoptions(16px, 24px, 628px);
   }
   & .inicio_title span.laptop {
+    @extend .inicio_title;
     color: #16a085;
   }
 }

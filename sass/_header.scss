@@ -1,12 +1,10 @@
+$estilos: (
+  colormenu: #060a24,
+  colormenuhover: #27ae60,
+);
 header {
-  & .logo img {
-    width: 24px;
-    height: auto;
-    display: block;
-  }
-
   & .menu .menu-link a {
-    color: #060a24;
+    color: map-get($estilos, colormenu);
     padding-left: 48px;
     font-weight: 400;
   }
@@ -16,8 +14,8 @@ header {
     padding: 22px 0;
   }
   & .menu .menu-link a:hover {
-    color: #27ae60;
-    text-decoration: line-through;
+    color: map-get($estilos, colormenuhover);
+    text-decoration: map-get($estilos, decoracion);
   }
 }
 
