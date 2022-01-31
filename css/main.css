@@ -1,33 +1,18 @@
-header .menu .menu-link a {
-  color: #060a24;
-  padding-left: 48px;
-  font-weight: 400;
+ul li {
+  font-size: 15px;
 }
 
-header .logo img {
-  width: 60px;
-  height: auto;
-  padding: 22px 0;
-}
-
-header .menu .menu-link a:hover {
-  color: #27ae60;
+header .navbar {
+  background-color: #6610f2 !important;
 }
 
 footer {
-  padding-top: 24px;
-  padding-bottom: 30px;
+  padding-top: 10%;
 }
 
 footer .footer_container .footer_social a i {
   font-size: 16px;
   line-height: 28px;
-}
-
-@media screen and (max-width: 767px) {
-  .logo {
-    display: none;
-  }
 }
 
 #inicio .animate__animated.animate__bounceInLeft {
@@ -53,10 +38,74 @@ footer .footer_container .footer_social a i {
   font-size: 16px;
   line-height: 24px;
   max-width: 628px;
+  font-family: "Arima Madurai", cursive;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 #inicio .inicio_title span.laptop {
-  color: #16a085;
+  color: #7510f7;
+}
+
+#inicio .btn {
+  background-color: #7510f7 !important;
+  border-color: white !important;
+  color: white;
+}
+
+.row-acerca {
+  background-color: #7510f7;
+}
+
+.row .fs-2 {
+  color: white;
+  font-weight: 800;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.row .text-acerca {
+  color: #fff;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+div .card-img-top {
+  height: 48px;
+  width: auto;
+  margin-top: 30px;
+}
+
+div .card-title {
+  font-family: "IBM Plex Sans", sans-serif;
+  letter-spacing: 0;
+  font-weight: 1000;
+  color: #060a24;
+}
+
+div .card-text {
+  color: #060a24;
+  font-family: "Arima Madurai", cursive;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+div .list-title {
+  color: #7510f7;
+  font-family: "Arima Madurai", cursive;
+  font-weight: 1000;
+}
+
+div ul li {
+  font-family: "Arima Madurai", cursive;
+}
+
+.img1 {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 * {
@@ -88,20 +137,6 @@ main {
   height: 80%;
 }
 
-a {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-color: #060a24;
-}
-
-a:active, a:visited {
-  color: rgba(6, 10, 36, 0.56);
-  text-decoration: line-through;
-}
-
-a:hover {
-  color: #00f3bb;
-}
-
 h1,
 h2,
 h3,
@@ -125,11 +160,5 @@ h3 {
   font-size: 24px;
   line-height: normal;
   font-weight: 600;
-}
-
-.imgcruz {
-  padding: 1rem;
-  width: 300px;
-  height: 200px;
 }
 /*# sourceMappingURL=main.css.map */

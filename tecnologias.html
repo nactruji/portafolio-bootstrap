@@ -13,11 +13,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css">
     <!-- Fonts -->
+
     <script src="https://use.fontawesome.com/e3930d76f3.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Bootstrap CSS -->
@@ -26,79 +29,125 @@
 </head>
 
 <body>
-
     <header>
-        <div class="container">
-            <div class="d-flex flex-row  justify-content-between align-items-center">
-                <div class="logo col-md-6">
-                    <a href="index.html">
-                        <img src="./img/logo.png" alt="blue dot">
-                    </a>
-                </div>
-                <nav class="menu col-md-6 p2 w-100 bd-highlight">
 
-                    <ul class="d-flex flex-wrap">
-
-                        <li class="menu-link"><a href="tecnologias.html">Tecnologias</a></li>
-                        <li class="menu-link"><a href="proyectos.html">Proyectos</a></li>
-                        <li class="menu-link"><a href="acerca.html">Acerca de Mi</a></li>
-                        <li class="menu-link"><a href="contacto.html">Contacto</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand">IMT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="tecnologias.html">TECNOLOGÍAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proyectos.html">PROYECTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="acerca.html">ACERCA DE MI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
-    <main>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/designer.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center mt-2 mb-2">Diseñador</h5>
+                    <p class="card-text pt-4">Me gusta realizar estructuras simples que destaquen el contenido, que sean
+                        de una visibilidad limpias y tengan animaciones que llamen la atención</p>
 
-        <div class="container">
-            <div class="d-flex justify-content-evenly flex-row flex-wrap">
-                <div class="col-l-4">
-                    <img class="imgcruz img-fluid" src="img/imgcruz.png" alt="">
-                    <p>Imagen tecnología 1</p>
+                    <p class="text-center list-title">Herramientas de diseñador:</p>
+                    <ul class="text-center">
+                        <li>Balsamiq</li>
+                        <li>Figma</li>
+                        <li>Invision</li>
+                        <li>Webflow</li>
+                        <li>Lapiz y Papel</li>
+                        <li>Marvel</li>
+                        <li>Zeplin</li>
+                        <li>Sketch</li>
+                    </ul>
                 </div>
-                <div class="col-l-4">
-                    <img class="imgcruz img-fluid" src="img/imgcruz.png" alt="">
-                    <p>Imagen tecnología 2</p>
-                </div>
-                <div class="col-l-4">
-                    <img class="imgcruz img-fluid" src="img/imgcruz.png" alt="">
-                    <p>Imagen tecnología 3</p>
-                </div>
-            </div>
-
-
-
-        </div>
-
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="flex-wrap d-flex justify-content-between">
-                <div class="col-md-6 footer_container">
-
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://twitter.com/" target="_blank">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://web.telegram.org/" target="_blank">
-                        <i class="fa fa-telegram" aria-hidden="true"></i>
-                    </a>
-                </div>
-
-                <div class="col-md-6 footer_copy">
-                    <p>©2022 - Ignacio Martín Trujillano</p>
-                </div>
-
 
             </div>
         </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/frontend.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center mt-2 mb-2">Desarrollador Frontend</h5>
+                    <p class="card-text pt-4">Me gusta codear desde los inicios, y traer ideas nuevas a los navegadores
+                        para que los usuarios interactuen con ello. También me estoy involucrando en desarrollos de
+                        software</p>
+
+                    <p class="text-center list-title">Herramientas de desarrollador:</p>
+                    <ul class="text-center">
+                        <li>Bootstrap</li>
+                        <li>Codepen</li>
+                        <li>Github</li>
+                        <li>React</li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/mentor.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center mt-2 mb-2">Mentor</h5>
+                    <p class="card-text pt-4">Me gustaría en el corto plazo poder mentorear a distintas personas que
+                        inicien en la rama del diseño y programación, para ello una vez con el conocimiento necesario
+                        montaré un canal de YT </p>
+
+                    <p class="text-center list-title">Estadistícas de mentoría:</p>
+                    <ul class="text-center">
+                        <li>+1 año de experiencia</li>
+                        <li>+10 cursos realizados</li>
+                        <li>+20 bootscamps</li>
+                        <li>+150 estudiantes</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="container flex-row d-flex justify-content-center">
+        <div class="col-md-6 footer_container">
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://web.telegram.org/" target="_blank">
+                <i class="fa fa-telegram" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="col-md-6 footer_copy">
+            <p class="text-end">©2022 - Ignacio Martín Trujillano</p>
+        </div>
+
     </footer>
 
 </body>
