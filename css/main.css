@@ -1,17 +1,9 @@
-header .menu .menu-link a {
-  color: #060a24;
-  padding-left: 48px;
-  font-weight: 400;
+ul li {
+  font-size: 15px;
 }
 
-header .logo img {
-  width: 60px;
-  height: auto;
-  padding: 22px 0;
-}
-
-header .menu .menu-link a:hover {
-  color: #27ae60;
+header .navbar {
+  background-color: #6610f2 !important;
 }
 
 footer {
@@ -24,9 +16,18 @@ footer .footer_container .footer_social a i {
   line-height: 28px;
 }
 
-@media screen and (max-width: 767px) {
-  .logo {
+@media screen and (min-width: 768px) {
+  div .is-mobile {
     display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  div .is-desktop {
+    display: none;
+  }
+  div .is-mobile {
+    display: block;
   }
 }
 
@@ -53,10 +54,38 @@ footer .footer_container .footer_social a i {
   font-size: 16px;
   line-height: 24px;
   max-width: 628px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
 }
 
 #inicio .inicio_title span.laptop {
-  color: #16a085;
+  color: #7510f7;
+}
+
+#inicio .btn {
+  background-color: #7510f7 !important;
+  border-color: white !important;
+  color: white;
+}
+
+.row-acerca {
+  background-color: #7510f7;
+  padding: 50px;
+}
+
+.row .fs-2 {
+  color: white;
+  font-weight: 800;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.row .text-acerca {
+  color: #fff;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 * {
@@ -88,20 +117,6 @@ main {
   height: 80%;
 }
 
-a {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-color: #060a24;
-}
-
-a:active, a:visited {
-  color: rgba(6, 10, 36, 0.56);
-  text-decoration: line-through;
-}
-
-a:hover {
-  color: #00f3bb;
-}
-
 h1,
 h2,
 h3,
@@ -125,11 +140,5 @@ h3 {
   font-size: 24px;
   line-height: normal;
   font-weight: 600;
-}
-
-.imgcruz {
-  padding: 1rem;
-  width: 300px;
-  height: 200px;
 }
 /*# sourceMappingURL=main.css.map */

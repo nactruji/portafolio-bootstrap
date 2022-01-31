@@ -26,44 +26,71 @@
 
 <body>
 
+    <!-- BARRA NAVEGACION Y LOGO -->
     <header>
-        <div class="container">
-            <div class="d-flex flex-row  justify-content-between align-items-center">
-                <div class="logo col-md-6">
-                    <a href="index.html">
-                        <img src="./img/logo.png" alt="blue dot">
-                    </a>
-                </div>
-                <nav class="menu col-md-6 p2 w-100 bd-highlight">
 
-                    <ul class="d-flex flex-wrap">
-
-                        <li class="menu-link"><a href="tecnologias.html">Tecnologias</a></li>
-                        <li class="menu-link"><a href="proyectos.html">Proyectos</a></li>
-                        <li class="menu-link"><a href="acerca.html">Acerca de Mi</a></li>
-                        <li class="menu-link"><a href="contacto.html">Contacto</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand">IMT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tecnologias.html">TECNOLOGÍAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="proyectos.html">PROYECTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="acerca.html">ACERCA DE MI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
+
     <main>
-
-        <div class="container">
-            <div class="d-flex justify-content-center align-items-center flex-column flex-wrap">
-                <div class="col-l-6">
-                    <img class='img-fluid' src="img/2.jpeg" alt="">
-
+        <section id="acerca" class="container-fluid">
+            <!-- <div class="d-flex flex-wrap flex-row align-items-center item">              </div>-->
+            <div class="row justify-content-center pt-5">
+                <div class="col-4">
+                    <img src="img/hero.svg" alt="" class="img-fluid">
                 </div>
-                <div class="col-l-6 pt-5">
-                    <p class="lead">Un poco mas acerca de mi </p>
+            </div>
+            <div class="row justify-content-center row-acerca align-items-center">
+                <div class="col-4 is-acerca is-desktop">
+                    <p class="fs-2 text-center">Hola! Soy Ignacio un gusto conocerte!</p>
+                    <p class="text-acerca text-center p-4"> Desde hace 1 año que mi trabajo es ser desarollador
+                        freelance. He
+                        trabajado remotamente para algunas agencias y he sido consultor y colaborado con algunas
+                        startups. Soy muy confiable y naturalmente curioso, en el trabajo me gusta mejorarme día a día y
+                        resolver nuevos desafíos</p>
+                </div>
+                <div class="col-4 is-acerca is-mobile">
+                    <p class="fs-2 text-center">Hola! Soy Ignacio un gusto conocerte!</p>
+                    <p class="text-acerca text-center p-4"> Desde hace 1 año que mi trabajo es ser desarollador
+                        freelance. He
+                        trabajado remotamente para algunas agencias y he sido consultor y colaborado con algunas
+                        startups. Soy muy confiable y naturalmente curioso, en el trabajo me gusta mejorarme día a día y
+                        resolver nuevos desafíos</p>
                 </div>
             </div>
 
+        </section>
 
 
-        </div>
 
     </main>
 

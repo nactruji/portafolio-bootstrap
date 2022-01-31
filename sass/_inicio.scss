@@ -23,9 +23,19 @@
   }
   & .inicio_subtitle {
     @include fontoptions(16px, 24px, 628px);
+
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
   }
   & .inicio_title span.laptop {
     @extend .inicio_title;
-    color: #16a085;
+    color: #7510f7;
+  }
+
+  & .btn {
+    background-color: #7510f7 !important;
+    border-color: white !important;
+    color: white;
   }
 }

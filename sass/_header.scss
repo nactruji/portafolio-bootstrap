@@ -2,21 +2,26 @@ $estilos: (
   colormenu: #060a24,
   colormenuhover: #27ae60,
 );
-header {
-  & .menu .menu-link a {
-    color: map-get($estilos, colormenu);
-    padding-left: 48px;
-    font-weight: 400;
-  }
-  & .logo img {
-    width: 60px;
-    height: auto;
-    padding: 22px 0;
-  }
-  & .menu .menu-link a:hover {
-    color: map-get($estilos, colormenuhover);
-    text-decoration: map-get($estilos, decoracion);
+
+ul {
+  li {
+    font-size: 15px;
   }
 }
 
-// HEADER RESPONSIVE //@
+header {
+  & .navbar {
+    background-color: #6610f2 !important;
+  }
+}
+
+// & .menu .menu-link a {
+//   color: map-get($estilos, colormenu);
+//   padding-left: 48px;
+//   font-weight: 400;
+// }
+
+// & .menu .menu-link a:hover {
+//   color: map-get($estilos, colormenuhover);
+//   text-decoration: map-get($estilos, decoracion);
+// }

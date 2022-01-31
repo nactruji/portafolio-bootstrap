@@ -2,6 +2,7 @@
 @import "footer";
 @import "media";
 @import "inicio";
+@import "acerca";
 
 * {
   margin: 0;
@@ -30,21 +31,6 @@ main {
   height: 80%;
 }
 
-a {
-  font: {
-    family: "IBM Plex Sans", sans-serif;
-    color: #060a24;
-  }
-  &:active,
-  &:visited {
-    color: rgba(6, 10, 36, 0.56);
-    text-decoration: line-through;
-  }
-  &:hover {
-    color: #00f3bb;
-  }
-}
-
 h1,
 h2,
 h3,
@@ -66,10 +52,4 @@ h3 {
   font-size: 24px;
   line-height: normal;
   font-weight: 600;
-}
-
-.imgcruz {
-  padding: 1rem;
-  width: 300px;
-  height: 200px;
 }
