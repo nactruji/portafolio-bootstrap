@@ -1,0 +1,27 @@
+div {
+  .card-img-top {
+    height: 48px;
+    width: auto;
+    margin-top: 30px;
+  }
+  .card-title {
+    font-family: "IBM Plex Sans", sans-serif;
+    letter-spacing: 0;
+    font-weight: 1000;
+    color: #060a24;
+  }
+  .card-text {
+    color: #060a24;
+    font-family: "Arima Madurai", cursive;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  .list-title {
+    color: #7510f7;
+    font-family: "Arima Madurai", cursive;
+    font-weight: 1000;
+  }
+  ul li {
+    font-family: "Arima Madurai", cursive;
+  }
+}
